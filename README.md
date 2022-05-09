@@ -1,7 +1,6 @@
 ## The-Top-150
-#Front/back end code for the top 150
 
-#How the point system works
+# How the point system works
 this is my in-depth explanation of how the code for the list processes points. (keep in mind this code is in google app script which is a subset of java script and that I have no formal training in JavaScript or google app script)
 So starting it off each level defined in the code has 1 characteristic, that being its placement. Here's what that looks like.
 	while (ListPage.getRange(index, 4).getValues() != "MNF-8Q4-WJG") {
