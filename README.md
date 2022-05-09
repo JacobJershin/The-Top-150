@@ -15,11 +15,11 @@ Daphnes_Finale = index
 	
 what those 4 lines of code do is find where the level is on the google sheet based off of its ID, then take that number and make the levels var name eg: Daphnes_Finale and set it equal to that index. Next, each player is defined as such. 
 
-
+```shell
 FakePlayerClears = [Ascension_to_heaven,  Scarlet_Stronghold_Double, ProjectPipes2]
 FakePlayerProgressLevel = [Daphnes_Finale, Ozymandias]
 FakePlayerProgress = [64, 88]
-	
+```
 	
 These 3 arrays define 3 things, a players clears, the levels they've gotten progress on and the % of said progress. then these arrays are stored in 4 bigger arrays called:
 
