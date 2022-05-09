@@ -1,0 +1,80 @@
+<html lang="en"><head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../format.css">
+    <link rel="stylesheet" href="./format.css">
+    <title>List Page</title>
+  </head>
+  <body>
+    <div id="NavBar">
+      <!-- Home Page Tab -->
+      <div id="navTabHome" onclick="window.location.href='https://codermerlin.com/users/jacob-jershin/TheTop150/src/HomePage/index.html'">
+	Homepage
+      </div>
+      <!-- List Page Tab -->
+      <div id="navTabList" onclick="window.location.href='https://codermerlin.com/users/jacob-jershin/TheTop150/src/ListPage/index.html'">
+	Listpage
+      </div>
+      <!-- Leaderboard Page Tab -->
+      <div id="navTabOnLeaderboard">
+	Leaderboard
+      </div>
+      <!-- profile -->
+      <div id="navTabProfile">
+      </div>
+    </div>
+
+    <div id="fart" style="margin-top: 185px">
+      Loading...
+    </div>
+    
+
+    <script>
+      LeaderboardArray = [" ともき(Tomoki) " , 2878.1 , " Ikgl " , 1599.54 , " Zoneß_たく(Taku) " , 1428.74 , " おうちゃん(Ouchan) " , 939.25 , " Pete " , 908.75 , " Yoshi " , 723.13 , " JP_やまば(yamaba) " , 715.77 , " JCTheChamp " , 664.2 , " BenjaRC " , 650 , " Nexus_Syo " , 599.27 , " アルチェ(Arche) " , 582.43 , " Ark " , 565.84 , " JuGeMu " , 547.8 , " AndrewMM " , 510.12 , " Keiichi " , 495.7 , " わぎゃっと(Wagyatto) " , 486.73 , " Dante_Power " , 362.46 , " チョコ(Choco) " , 350.34 , " Parasol " , 349.97 , " きゆうしちゅう(kiyuushichiyuu) " , 347.07 , " よくいる凡人(Yokuirubonjin) " , 303.61 , " ふっくー_Hukku " , 294.53 , " Nexus_ゆうほ(Yuho) " , 288.2 , " Zoren364 " , 282.26 , " Hayaku " , 276.65 , " もつちmotch(motchi) " , 266.5 , " Zoneß_193 " , 263.73 , " CHN_WangH " , 247.45 , " Candace " , 235.1 , " SKG_D3ふぁん(Fan) " , 229.49 , " Red " , 226.56 , " しんの(Shino) " , 224.78 , " Trickbot " , 217.7 , " KingBoo " , 215.42 , " 叶音#うた " , 206.94 , " Rafael_MM2 " , 197.71 , " Kazuki_あいす(Ice) " , 196.9 , " RCM " , 196.38 , " Morpha " , 194.22 , " HJ|Sanyx " , 188.14 , " Kurofish " , 187.57 , " Aya " , 186.35 , " BigBirdo " , 183.7 , " Itzy " , 181.25 , " さたでーれ(satade-re) " , 177.83 , " Zoneß_テテイー (tetei-) " , 173.3 , " Darkness " , 169.66 , " Tatagamer " , 161.4 , " GdaTyler " , 160.17 , " Fail " , 160.17 , " Lyfi " , 157.22 , " zzZHLTはると(Haruto) " , 144.59 , " Ethan " , 142.98 , " PokeDT " , 142.25 , " わ!!(wa) " , 139.93 , " Rico " , 138.73 , " もきたん(mokitan) " , 133.26 , " A1wayszz " , 132.56 , " takaakid " , 130.46 , " Alice " , 128.95 , " Noisy " , 125.88 , " Katz " , 109.92 , " BigBy " , 109.8 , " Catster " , 109.18 , " Doguma " , 104.07 , " Gobaa " , 91.51 , " MilMario " , 91.09 , " JonasHam " , 84.17 , " Wreferiii " , 81.05 , " Hari " , 80.95 , " りようま_ようつべ(Ryōma_youtub) " , 79.61 , " Zn " , 79.59 , "  MT_コンドリア(Condolia) " , 75.12 , " Kishumen " , 73.68 , " Z7 " , 70.24 , " Futon " , 69.68 , " Kan'tBeKai " , 66.2 , " Ggang! " , 61.27 , " LeoX2 " , 60.91 , " ShyGuy64 " , 60.28 , " schwarze " , 59.88 , " Ln_XC " , 57.65 , " Haefly " , 56.5 , " ばんり(Banri) " , 51.09 , " JP_Mario " , 47.71 , " Murmeli_ " , 45.94 , " コメス(Komesu) " , 44.89 , " ev_brak " , 44.52 , " YTLilKirbs " , 44.04 , " Skimbean " , 41.17 , " りよーくん(riyo-kun) " , 37.6 , " yuzo " , 36.61 , " Zone_ののむらあ(nonomuraa) " , 33.45 , " ttbs098 " , 33.12 , " IFILYびつきー " , 31.41 , " MisterL " , 29.8 , " LnNxs_きゆうり(Kiyuri) " , 29.76 , " Anthony " , 29.5 , " Thabeast " , 27.05 , " ゆいう " , 27.05 , " Lyle " , 26.04 , " Chris_SMM " , 24.31 , " Just_Doner " , 23.34 , " Flangooooo " , 22.12 , " Fore " , 21.55 , " Nexus_q " , 21.37 , " Ln_asck " , 20.78 , " N/I_ああい " , 20.71 , " Ryan " , 20.28 , " MrGamer871 " , 19.88 , " Wafflechop " , 19.6 , " Firim " , 19.42 , " Fast " , 19.24 , " YORA " , 18.95 , " Prosper " , 17.42 , " NOTanthony " , 17.42 , " eem_supreme " , 16.54 , " RemiDobby " , 16.54 , " Ethanos72 " , 16.16 , " Kirito :v " , 15.92 , " Ryota_sad " , 15.06 , " Zone_ゆうやけ(Yuyake) " , 15.06 , " (:3rz)~ " , 14.98 , " Ryanarwhal " , 14.33 , " Cruso " , 14.33 , " Retter " , 14.31 , " Zone_まだたびW(Mada tabi) " , 14.31 , " MIDNA " , 13.44 , " MissYouAll " , 13.18 , " Zurix " , 12.63 , " MW :) " , 12.22 , " しゆぷChannel(Shiyupu) " , 12.19 , " ちらしい(Chirashii) " , 11.24 , " さばおん(Sabaon) " , 9.73 , " なーごろ(na-goro) " , 9.73 , " きつとかつとおいしい(kitsutokatsutooishii) " , 9.73 , " Ike " , 9.46 , " かでん(-3(Kaden) " , 9.15 , " ちらしな(Chirashina) " , 8.84 , " idkagn " , 8.69 , " AntiGuy64 " , 8.69 , " D3_ある " , 8.37 , " DarkSmm2 " , 8.06 , " YukiSungi " , 8.06 , " Rr0 " , 8.06 , " Ln_Luke " , 8.06 , " Kea " , 8.06 , " Fury_mcki " , 8.06 , " としぼ(Toshibo) " , 8.06 , " げつし~ちやん(Getushi~Chiyan) " , 8.06 , " うえにゃび(Uenyabi) " , 8.06 , " わーあい(wa-ai) " , 8.06 , " ZioNeoちゃん(Chan) " , 8.06 , " あrわ(arwa) " , 8.06 , " DICE_なちとnp(nachito) " , 8.06 , " らあち(Raachi) " , 8.06 , " KyoKyo(Kyokyo) " , 8.06 , " たたみ(Tatami) " , 8.06 , " かくでいZORO(Kakudei) " , 8.06 , " [ウミガメ](umigame) " , 6.92 , " Nxs:FLYうらる " , 6.92 , " Evaaa_Ever " , 6.92 , " Lz_Terrace " , 6.92 , " Vinzent " , 6.6 , " ChaseExist " , 6.56 , " Wodnjs18 " , 6.56 , " れざび(Rezabi) " , 6.18 , " Aidan " , 5.52 , " AKUKIN " , 5.15 , " はるか(Haruka) " , 5.15 , " Jeffie " , 5.12 , " Krypta " , 5.12 , " K.^ " , 4.81 , " Zeno " , 4.57 , " DrC " , 4.57 , " seb " , 4.57 , " Nowieso " , 4.08 , " LordPickle " , 3.78 , " Hyeana " , 3.5 , " Lini " , 3.25 , " DevyDevDev " , 3.13 , " Broccoli " , 3.13 , " Raymega " , 3.13 , " Phenotype " , 3.05 , " Carldoska " , 2.8 , " Sanoha " , 2.79 , " Kirr12 " , 2.59 , " MLSAEMYA " , 2.31 , " TakachanClears " , 2.14 , " ひろと(Hiroto) " , 1.91 , " Nezu " , 1.84 , " Zen " , 1.26 , " Jonus " , 1.26 , " Premieze " , 1.26 , " Sr.Gordin " , 1.13 , " 1Frame " , 1.08 , " Anemia " , 1.08 , " Zwizzforce " , 1.04 , " YD;) " , 1.04 , " ななさき(nanasaki) " , 1.04 , " DoctaEL " , 1.04 , " [ONiZN] " , 0.93 , " Tookann " , 0.83 , " Logjet " , 0.83 , " Don_OTono " , 0.8 , " Solrak " , 0.8, "Y0gamer", 0.8]
+
+      LevelSlot = ""
+      for (let index = 0; index < LeaderboardArray.length; index += 2) {
+	  LevelSlot += "<div id='LevelPosition'><div id='rankNumber'>"+ (index +2)/2 +"</div> <div id='name'>"+LeaderboardArray[index]+"</div><div id='points'>"+LeaderboardArray[index + 1]+"p</div><div id='PFP'></div></div>"
+      }
+      document.getElementById("fart").innerHTML = LevelSlot
+      //------------------------------------------------------------------------------
+
+
+      function PointCalc(PlaceMent) {
+	  return Math.pow(1.054411903089, ((PlaceMent+40)/1.4))
+      }
+
+      function ClearPoints(Array) {
+	  index = 0
+	  total = 0
+	  while (index < Array.length) {
+	      total += PointCalc(101 - Array[index] + Daphnes_Finale - 1)
+	      index += 1
+	  }
+	  return total
+      }
+
+      function ProgressCalc(Placement, Progress) {
+	  PointPrecent = ((Progress/10.0)*(Progress/10.0) * 0.01)
+	  return (PointCalc(Placement + Daphnes_Finale - 1)*PointPrecent)*0.90
+      }
+
+      function ProgressPoint(ProgressArray, LevelArray) {
+	  index = 0
+	  total = 0
+	  while (index < ProgressArray.length) {
+	      total += ProgressCalc(101 - LevelArray[index], ProgressArray[index])
+	      index += 1
+	  }
+	  return total
+      }
+
+      function MasterPoints(ProgressArray, ProgressLevelArray, ClearArray) {
+	  return ProgressPoint(ProgressArray, ProgressLevelArray) +  ClearPoints(ClearArray)
+      }
+    </script>
+
+  </body>
+</html>
