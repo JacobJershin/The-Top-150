@@ -78,23 +78,24 @@
 	    return Math.pow(1.054411903089, ((PlaceMent+40)/1.4))
 	}
 	
-	var topThreeSlot = ""
-	for (let i = 1; i < 4; i++) {
-	    topThreeSlot += "<div id='farts'><img src='' id='miniimg'><div id='minititle'>"+EveryLevelArrayString[i-1]+"</div><div id='minipoints'>"+PointCalc(101-i).toFixed(2)+"</div></div>"
-	}
-	document.getElementById("TopThreeJSON").innerHTML = topThreeSlot
-
-	LeaderboardArray = [" ともき(Tomoki) " , 2878.1 , " Ikgl " , 1599.54 , " Zoneß_たく(Taku) " , 1428.74 , " おうちゃん(Ouchan) " , 939.25 , " Pete " , 908.75 , " Yoshi " , 723.13 , " JP_やまば(yamaba) " , 715.77 , " JCTheChamp " , 664.2 , " BenjaRC " , 650 , " Nexus_Syo " , 599.27]
-
-	LevelSlot = ""
-	for (let index = 0; index < LeaderboardArray.length; index += 2) {
-	    LevelSlot += "<div id='LevelPosition'><div id='rankNumber'>"+ (index +2)/2 +"</div> <div id='name'>"+LeaderboardArray[index]+"</div><div id='points'>"+LeaderboardArray[index + 1]+"p</div><div id='PFP'></div></div>"
-	}
-	document.getElementById("topTenScript").innerHTML = LevelSlot
-					      </script>
+	var videosArray = [" https://www.youtube.com/watch?v=HHVeTgjRGD0 " , " https://www.youtube.com/watch?v=UjyOqyHkTwQ " , " https://www.youtube.com/watch?v=Sy4Q05gPdoU"]
 
 
-      <style>
+        var topThreeSlot = ""
+        for (let i = 1; i < 4; i++) {
+            YTID = videosArray[i-1].split('=')
+            topThreeSlot += "<div id='farts'><iframe src='https://www.youtube.com/embed/"+YTID[1]+"' id='miniimg'></iframe><div id='minititle'>"+EveryLevelArrayString[i-1]+"</div><div id='minipoints'>"+PointCalc(101-i).toFixed(2)+"</div></div>"
+        }
+        document.getElementById("TopThreeJSON").innerHTML = topThreeSlot
+
+        LeaderboardArray = [" ともき(Tomoki) " , 2878.1 , " Ikgl " , 1599.54 , " Zoneß_たく(Taku) " , 1428.74 , " おうちゃん(Ouchan) " , 939.25 , " Pete " , 908.75 , " Yoshi " , 723.13 , " JP_やまば(yamaba) " , 715.77 , " JCTheChamp " , 664.2 , " BenjaRC " , 650 , " Nexus_Syo " , 599.27]
+
+        LevelSlot = ""
+        for (let index = 0; index < LeaderboardArray.length; index += 2) {
+            LevelSlot += "<div id='LevelPosition'><div id='rankNumber'>"+ (index +2)/2 +"</div> <div id='name'>"+LeaderboardArray[index]+"</div><div id='points'>"+LeaderboardArray[index + 1]+"p</div><div id='PFP'></div></div>"
+        }
+        document.getElementById("topTenScript").innerHTML = LevelSlot
+                                              </script>	
 	#TopThreeJSON{
 	    margin-top: 650px;
 	}
