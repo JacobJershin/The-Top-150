@@ -61,7 +61,9 @@ function ProgressCalc(x, Progress) {
 }
 ```	
 	
-the function ProgressCalc takes in 2 parameters those being the level (x) and the players "Precent" (god fuck these typos why the hell did i use x as the level as well xdddddd im such a good dev lmao ill fix that later tho im lazy) So what this function does is kinda complicated, it first finds what f(Progress) = 0.0001Progress^2 which takes the % of the level the player did and turns that in to a proportion of itself that relates 100 to be 1 and 1 to be .0001, then it takes this number and relates it in to the next step which takes that number and multiples it by the PointCalc of the level you have progress on and then multiplies all of that .9 which is there to "nerf" how OP progress is. Ok that was really confusing and convoluted but if you know comp-sci just read the code and I'm sure it'll make more sense that what I just said xd
+the function ProgressCalc takes in 2 parameters those being the level (x) and the players "Precent" (god fuck these typos why the hell did i use x as the level as well xdddddd im such a good dev lmao ill fix that later tho im lazy) So what this function does is kinda complicated, it first finds what f(Progress) = 0.0001Progress^2 which takes the % of the level the player did and turns that in to a proportion of itself that relates 100 to be 1 and 1 to be .0001, then it takes this number and relates it in to the next step which takes that number and multiples it by the PointCalc of the level you have progress on and then multiplies all of that .9 which is there to "*nerf*" how OP progress is. Ok that was really confusing and convoluted but if you know comp-sci just read the code and I'm sure it'll make more sense that what I just said xd
+
+<img src="">
 
 ```shell
 function ProgressPoint(ProgressArray, LevelArray) {
