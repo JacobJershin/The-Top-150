@@ -1,7 +1,6 @@
 # The-Top-150
 
-## How the point system works
-### Welcome to Super Mario Maker 2's Top 150 Levels List!
+## Welcome to Super Mario Maker 2's Top 150 Levels List!
 Our Discord: https://discord.gg/xVBDxkR9Dx
 Our Twitter: https://twitter.com/SMM2top100
 
