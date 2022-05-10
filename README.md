@@ -101,6 +101,8 @@ Lastly the function MasterPoints just takes in the 3 parameters of a player, tha
 
 ## Special Thanks to all of the following! 
 
--[tris]https://github.com/TrisEevee for making the whole UI
+-[tris](https://github.com/TrisEevee) for making the whole UI
+
 -The VC boys for supporting me (pete231) during the project 
+
 -All of the mods of the Top 150 smm2 discord 
