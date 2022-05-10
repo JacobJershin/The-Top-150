@@ -99,7 +99,8 @@ function MasterPoints(ProgressArray, ProgressLevelArray, ClearArray) {
 Lastly the function MasterPoints just takes in the 3 parameters of a player, that being their clears, levels they have progress on, and the % of said progress and runs the previously defined functions on those 3 arrays to find a players total points. 
 
 
-##Special Thanks to all of the following! 
+## Special Thanks to all of the following! 
 
-The VC boys for supporting me (pete231) during the project 
-All of the mods of the Top 150 smm2 discord 
+-[tris]https://github.com/TrisEevee for making the whole UI
+-The VC boys for supporting me (pete231) during the project 
+-All of the mods of the Top 150 smm2 discord 
