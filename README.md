@@ -1,6 +1,11 @@
 # The-Top-150
 
 ## How the point system works
+### Welcome to Super Mario Maker 2's Top 150 Levels List!
+Our Discord: https://discord.gg/xVBDxkR9Dx
+Our Twitter: https://twitter.com/SMM2top100
+
+## How the point system works
 
 this is my in-depth explanation of how the code for the list processes points. (keep in mind this code is in google app script which is a subset of java script and that I have no formal training in JavaScript or google app script)
 
@@ -86,3 +91,9 @@ function MasterPoints(ProgressArray, ProgressLevelArray, ClearArray) {
 ```	
 	
 Lastly the function MasterPoints just takes in the 3 parameters of a player, that being their clears, levels they have progress on, and the % of said progress and runs the previously defined functions on those 3 arrays to find a players total points. 
+
+
+##Special Thanks to all of the following! 
+
+The VC boys for supporting me (pete231) during the project 
+All of the mods of the Top 150 smm2 discord 
