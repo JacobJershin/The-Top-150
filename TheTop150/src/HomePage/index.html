@@ -76,11 +76,21 @@
 	function PointCalc(PlaceMent) {
 	    return Math.pow(1.054411903089, ((PlaceMent+40)/1.4))
 	}
+  
+  function ClearPoints(Array) {
+          var index = 0
+          var total = 0
+            while (index < Array.length) {
+              total += PointCalc(101 - Array[index] + Daphnes_Finale - 1)
+              index += 1
+            }
+          return total
+        }
 
         var topThreeSlot = ""
         for (let i = 1; i < 4; i++) {
             YTID = videosArray[i-1].split('=')
-            topThreeSlot += "<div id='farts'><iframe src='https://www.youtube.com/embed/"+YTID[1]+"' id='miniimg'></iframe><div id='minititle'>"+EveryLevelArrayString[i-1]+"</div><div id='minipoints'>"+PointCalc(101-i).toFixed(2)+"</div></div>"
+            topThreeSlot += "<div id='farts'><iframe src='https://www.youtube.com/embed/"+YTID[1]+"' id='miniimg'></iframe><div id='minititle'>"+EveryLevelArrayString[i-1]+"</div><div id='minipoints'>"+ClearPoints([i]).toFixed(2)+"</div></div>"
         }
         document.getElementById("TopThreeJSON").innerHTML = topThreeSlot
 
