@@ -9,6 +9,7 @@
       <link rel="stylesheet" href="./format.css">
       <script src="https://codermerlin.com/users/jacob-jershin/TheTop150/src/levelDatabase.js"></script>
       <title>List Page</title>
+      <script type="text/javascript" src="../SheetsData.js"></script>
   </head>
   <body>
     <div id="NavBar" style="position: sticky; z-index: 999; opacity: .95; position: fixed;">
@@ -42,11 +43,11 @@
     <div id="googleforms">
     </div>
     <div id="links">
-      <p onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfsBE94cu2Cnb9S6EU09mQx5BEWwx1tOMp8F2T5kapAY1QGHA/viewform?usp=sf_link')" style="background: none">Submit a level</p>
+      <p onclick="window.open('https:/docs.google.com/forms/d/e/1FAIpQLSfsBE94cu2Cnb9S6EU09mQx5BEWwx1tOMp8F2T5kapAY1QGHA/viewform?usp=sf_link')" style="background: none">Submit a level</p>
       
-      <p onclick="window.open.('https://docs.google.com/forms/d/e/1FAIpQLSemdGqIFVCihLJeVT4ILtPg5kU29MJMR3dvLdqdTKzHNC2A2g/viewform?usp=sf_link')" style="background: none">Submit level completion progress</p>
+      <p onclick="window.open('https:/docs.google.com/forms/d/e/1FAIpQLSemdGqIFVCihLJeVT4ILtPg5kU29MJMR3dvLdqdTKzHNC2A2g/viewform?usp=sf_link')" style="background: none">Submit level completion progress</p>
       
-      <p onclick="window.open.('https://docs.google.com/forms/d/e/1FAIpQLSf2T1Pw5TPZyG5plxh7Jfi1SIzq0NEHXWSP_YDhm9NZAotigA/viewform?usp=sf_link')" style="background: none">Request a level position change</p> 
+      <p onclick="window.open('https:/docs.google.com/forms/d/e/1FAIpQLSf2T1Pw5TPZyG5plxh7Jfi1SIzq0NEHXWSP_YDhm9NZAotigA/viewform?usp=sf_link')" style="background: none">Request a level position change</p> 
     </div>
     
     <div id="top3">
@@ -71,15 +72,10 @@
       </div>
       
       <script>
-	var EveryLevelArrayString = ["Daphnes_Finale","Magia90s","Aya_Revive"]
-	
-	
+
 	function PointCalc(PlaceMent) {
 	    return Math.pow(1.054411903089, ((PlaceMent+40)/1.4))
 	}
-	
-	var videosArray = [" https://www.youtube.com/watch?v=HHVeTgjRGD0 " , " https://www.youtube.com/watch?v=UjyOqyHkTwQ " , " https://www.youtube.com/watch?v=Sy4Q05gPdoU"]
-
 
         var topThreeSlot = ""
         for (let i = 1; i < 4; i++) {
@@ -88,10 +84,8 @@
         }
         document.getElementById("TopThreeJSON").innerHTML = topThreeSlot
 
-        LeaderboardArray = [" ともき(Tomoki) " , 2878.1 , " Ikgl " , 1599.54 , " Zoneß_たく(Taku) " , 1428.74 , " おうちゃん(Ouchan) " , 939.25 , " Pete " , 908.75 , " Yoshi " , 723.13 , " JP_やまば(yamaba) " , 715.77 , " JCTheChamp " , 664.2 , " BenjaRC " , 650 , " Nexus_Syo " , 599.27]
-
         LevelSlot = ""
-        for (let index = 0; index < LeaderboardArray.length; index += 2) {
+        for (let index = 0; index < 20; index += 2) {
             LevelSlot += "<div id='LevelPosition'><div id='rankNumber'>"+ (index +2)/2 +"</div> <div id='name'>"+LeaderboardArray[index]+"</div><div id='points'>"+LeaderboardArray[index + 1]+"p</div><div id='PFP'></div></div>"
         }
         document.getElementById("topTenScript").innerHTML = LevelSlot
